@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import argParser from 'yargs-parser';
 import { program } from 'commander';
 import { abandonEvent, getEventIdByExecl, getEventIdByLike, login } from './lib';
